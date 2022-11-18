@@ -7,6 +7,6 @@ def main(a):
     """
     # Write your code here
     x=a>0
-    y=a!=float
+    y=a==int(a)
     return x and y
-print(main(-3))
+print(main(7))
