@@ -9,5 +9,6 @@ def main(a):
     # Write your code here
     x=a>=0
     y=a<10
-    return x and y
-print(main(3.5))
+    z=a==int(a)
+    return x and y and z
+print(main(1.999))
