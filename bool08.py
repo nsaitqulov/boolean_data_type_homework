@@ -10,4 +10,4 @@ def main(a):
     x=a>=0
     y=a<10
     return x and y
-print(main(3))
+print(main(3.5))
