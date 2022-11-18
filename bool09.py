@@ -6,4 +6,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    x=a>0
+    y=a!=float
+    return x and y
+print(main(-3))
