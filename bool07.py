@@ -9,5 +9,5 @@ def main(a,b):
     """
     # Write your code here
 
-    return a==b
-print(not(main(1, 1)))
+    return a!=b
+print(not(main(5, 5)))
